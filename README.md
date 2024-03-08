@@ -1,10 +1,12 @@
 # Hugo Starter Site
 
-This is my favorite way to code static websites. It's a hugo site with the following front-end technologies built in.
+This is my favorite way to code static websites. It's a Hugo site with the following front-end technologies built in.
 
 **CUBE CSS**
 
 I copied much of the inspiring cube-boilerplate into this Hugo enviroment. I've modified it to use the utopia-core functions for font sizes and spacing.
+
+The boilerplate uses a modified tailwindcss config. In order to get tailwindy behavior in Hugo, I followed this [hugo-starter-tailwind-basic](https://github.com/bep/hugo-starter-tailwind-basic) from [bep](https://github.com/bep).
 
 **Hotwired Turbo**
 
@@ -13,14 +15,28 @@ I use @hotwired/turbo to speed everything up for free.
 ## Installation
 
 ```sh
-# Grab the code
+
 git clone https://github.com/jameskerr/hugo-starter
-# rename to something you want
-mv hugo-starter my-cool-site
-# Get in there
+
+mv hugo-starter my-cool-site # rename to something you want
+
 cd my-cool-site
-# Start the dev server
+
 hugo server
 ```
+
+## CSS Instructions
+
+Add your own CSS files anywhere in these directories to have them automatically included. Take a look at `assets/css/main.css` for how it all is stitched together.
+
+- `assets/css/blocks`
+- `assets/css/compositions`
+- `assets/css/utilities`
+
+## JS Instructions
+
+Add your JavaScript files to `assets/js`, then import then into `assets/js/main.js`. These will get build using Hugo's [js.Build pipe](https://gohugo.io/hugo-pipes/js/).
+
+Enjoy!
 
 Authored by [James Kerr](http://jameskerr.blog)
