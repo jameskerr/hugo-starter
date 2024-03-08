@@ -22,6 +22,8 @@ mv hugo-starter my-cool-site # rename to something you want
 
 cd my-cool-site
 
+yarn
+
 hugo server
 ```
 
