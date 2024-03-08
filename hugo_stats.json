@@ -11,11 +11,10 @@
       "main",
       "meta",
       "p",
+      "script",
       "title"
     ],
-    "classes": [
-      "size-step-0"
-    ],
+    "classes": null,
     "ids": [
       "hello-world"
     ]
