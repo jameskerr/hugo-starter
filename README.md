@@ -4,13 +4,13 @@ This is my favorite way to code static websites. It's a Hugo site with the follo
 
 **CUBE CSS**
 
-I copied much of the inspiring cube-boilerplate into this Hugo enviroment. I've modified it to use the utopia-core functions for font sizes and spacing.
+I copied much of the inspiring [cube-boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate/tree/main) into this Hugo enviroment. I've modified it to use the [utopia-core](https://github.com/trys/utopia-core) functions for font sizes and spacing.
 
 The boilerplate uses a modified tailwindcss config. In order to get tailwindy behavior in Hugo, I followed this [hugo-starter-tailwind-basic](https://github.com/bep/hugo-starter-tailwind-basic) from [bep](https://github.com/bep).
 
 **Hotwired Turbo**
 
-I use @hotwired/turbo to speed everything up for free.
+I use [@hotwired/turbo](https://github.com/hotwired/turbo) to speed everything up for free.
 
 ## Installation
 
