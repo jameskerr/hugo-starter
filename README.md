@@ -27,11 +27,13 @@ hugo server
 
 ## CSS Instructions
 
-Add your own CSS files anywhere in these directories to have them automatically included. Take a look at `assets/css/main.css` for how it all is stitched together.
+Add your own CSS files anywhere in these directories to have them automatically included.
 
-- `assets/css/blocks`
-- `assets/css/compositions`
-- `assets/css/utilities`
+- `assets/css/blocks/`
+- `assets/css/compositions/`
+- `assets/css/utilities/`
+
+Take a look at `assets/css/main.css` for how it all is stitched together. Also visit the docs for [CUBE CSS](https://cube.fyi/) and [Utopia](https://utopia.fyi/).
 
 ## JS Instructions
 
