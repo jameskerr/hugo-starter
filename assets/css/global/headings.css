@@ -1,0 +1,20 @@
+:where(h1, h2, h3, h4) {
+  color: var(--color-accent);
+  line-height: var(--leading-short);
+}
+
+:where(h1) {
+  font-size: var(--step-4);
+}
+
+:where(h2) {
+  font-size: var(--step-3);
+}
+
+:where(h3) {
+  font-size: var(--step-2);
+}
+
+:where(h4) {
+  font-size: var(--step-1);
+}

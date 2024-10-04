@@ -1,0 +1,23 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+  max-inline-size: var(--size-field);
+}
+
+.label {
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  font-size: var(--step-0);
+  color: var(--color-text-meta);
+}
+
+label:has(input[type='radio'], input[type='checkbox']) {
+  display: flex;
+  gap: var(--space-2xs);
+}
+
+.field.radio,
+.field.checkbox {
+  gap: var(--space-xs);
+}

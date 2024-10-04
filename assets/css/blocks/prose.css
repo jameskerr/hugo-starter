@@ -1,3 +1,12 @@
 .prose {
-  --flow-space: var(--space-m);
+  & p,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  pre,
+  code {
+    max-inline-size: var(--size-measure);
+  }
 }

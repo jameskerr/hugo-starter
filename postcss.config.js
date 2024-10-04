@@ -1,8 +1,12 @@
 module.exports = {
-  plugins: [
-    require('postcss-import-ext-glob'),
-    require('postcss-import'),
-    require('tailwindcss'),
-    require('autoprefixer')
-  ]
+  plugins: {
+    'postcss-import-ext-glob': {},
+    'postcss-import': {},
+    'postcss-advanced-variables': {},
+    'postcss-utopia': {
+      minWidth: 320,
+      maxWidth: 1080
+    },
+    'autoprefixer': {}
+  }
 };

@@ -1,0 +1,6 @@
+:root {
+  --size-measure: 65ch;
+  --size-field: 30ch;
+  --size-page: 960px;
+  --gutter: var(--space-s);
+}

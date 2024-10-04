@@ -5,9 +5,9 @@
   project: https://cube.fyi/css.html
 */
 body {
-  background: var(--color-light);
-  color: var(--color-dark);
-  font-size: var(--size-step-0);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: var(--step-0);
   font-family: var(--font-base);
   line-height: var(--leading-standard);
 }

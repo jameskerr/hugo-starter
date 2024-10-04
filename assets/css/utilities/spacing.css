@@ -1,0 +1,11 @@
+@each $space in $spaces {
+  /* Gap Utilities */
+  .gap-$space {
+    gap: var(--space-$space);
+  }
+
+  /* Flow Space Utilities */
+  .flow-space-$space {
+    --flow-space: var(--space-$space);
+  }
+}

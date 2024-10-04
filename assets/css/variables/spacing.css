@@ -1,0 +1,15 @@
+/* This is for utilities to loop through. */
+$spaces: (2xs, xs, s, m, l, xl, s-l);
+
+:root {
+  @utopia spaceScale({
+    minSize: 16,
+    maxSize: 18,
+    positiveSteps: [1.5, 2, 3, 5],
+    negativeSteps: [0.75, 0.5],
+    customSizes: ['s-l', 'xl-2xl'],
+    relativeTo: 'viewport',    /* Optional */
+    prefix: 'space',           /* Optional */
+    usePx: false,              /* Optional */
+  });
+}

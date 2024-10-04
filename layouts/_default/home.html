@@ -1,5 +1,31 @@
 {{ define "main" }}
-  {{ .Content }}
+  <div class="flow wrapper prose">
+    {{ .Content }}
+    <button class="btn">Button</button>
+    <form class="flow">
+      <div class="field">
+        <label class="label">Name</label>
+        <input type="text" />
+      </div>
+      <div class="field">
+        <label class="label">Email</label>
+        <input type="text" />
+      </div>
+      <div class="field radio flow-space-l">
+        <label class="label">Options</label>
+        <div class="cluster gap-xs">
+          <label><input type="radio" /> Option 1 </label>
+          <label><input type="radio" /> Option 2</label>
+          <label><input type="radio" /> Option 3</label>
+        </div>
+      </div>
+      <div class="field checkbox flow-space-l">
+        <label class="label">Unsubscribe From Emails</label>
+        <label><input type="checkbox" checked /> All Emails</label>
+        <label><input type="checkbox" /> Marketing Emails</label>
+      </div>
+    </form>
+  </div>
   {{ range site.RegularPages }}
     <h2 class="step-5"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Summary }}
