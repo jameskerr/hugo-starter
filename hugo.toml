@@ -2,6 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
+# When you glob-import the css files like we do here, 
+# hugo doesn't realize that it needs to rebuild the css.
 [build]
 [[build.cachebusters]]
   source = 'assets/css.*'
