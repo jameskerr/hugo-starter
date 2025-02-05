@@ -2,5 +2,6 @@
   --size-measure: 65ch;
   --size-field: 30ch;
   --size-page: 960px;
-  --gutter: var(--space-s);
+  --leading-body: 1.6;
+  --leading-heading: 1.1;
 }

@@ -1,5 +1,5 @@
 /* This is for utilities to loop through. */
-$spaces: (2xs, xs, s, m, l, xl, s-l);
+$spaces: (2xs, xs, s, m, l, xl, s-l, g, g-half, g-quarter);
 
 :root {
   @utopia spaceScale({
@@ -12,4 +12,8 @@ $spaces: (2xs, xs, s, m, l, xl, s-l);
     prefix: 'space',           /* Optional */
     usePx: false,              /* Optional */
   });
+  --space-g: var(--space-s-l);
+  --space-g-half: calc(var(--space-g) / 2);
+  --space-g-quarter: calc(var(--space-g) / 4);
+  --gutter: var(--space-g);
 }

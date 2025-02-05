@@ -1,7 +1,7 @@
-/* 
-  Global styles 
+/*
+  Global styles
 
-  Low-specificity, global styles that apply to the whole 
+  Low-specificity, global styles that apply to the whole
   project: https://cube.fyi/css.html
 */
 body {
@@ -9,5 +9,5 @@ body {
   color: var(--color-text);
   font-size: var(--step-0);
   font-family: var(--font-base);
-  line-height: var(--leading-standard);
+  line-height: var(--leading-body);
 }

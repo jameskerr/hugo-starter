@@ -1,8 +1,8 @@
 /*
-WRAPPER COMPOSITION 
+WRAPPER COMPOSITION
 A common wrapper/container
 */
-.wrapper {
+.wrap {
   margin-inline: auto;
   max-width: clamp(16rem, var(--size-page, 100vw), 80rem);
   padding-left: var(--gutter);

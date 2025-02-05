@@ -1,0 +1,23 @@
+@each $space in $spaces {
+  .gap-$space {
+    gap: var(--space-$space);
+  }
+  .flow-space-$space {
+    --flow-space: var(--space-$space);
+  }
+  .region-$space {
+    padding-block: var(--space-$space);
+  }
+  .above-$space {
+    padding-block-start: var(--space-$space);
+  }
+  .below-$space {
+    padding-block-end: var(--space-$space);
+  }
+  .over-$space {
+    margin-block-start: var(--space-$space);
+  }
+  .under-$space {
+    margin-block-end: var(--space-$space);
+  }
+}

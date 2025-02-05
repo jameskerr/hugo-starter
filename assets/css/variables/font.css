@@ -1,4 +1,6 @@
 :root {
+  --font-base: 'system-ui', sans-serif;
+
   @utopia typeScale({
     minFontSize: 16,
     maxFontSize: 18,
